@@ -21,3 +21,6 @@
 172.29.0.1 - - [29/Apr/2020:17:42:33 +0100] "GET /?C=D;O=A HTTP/1.1" 200 585 "http://127.0.0.1:30085/?C=S;O=A" "Mozilla/5.0 (X11; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0"
 172.29.0.1 - - [29/Apr/2020:17:44:46 +0100] "GET /?C=D;O=A HTTP/1.1" 200 463 "http://127.0.0.1:30085/?C=S;O=A" "admin"
 172.29.0.1 - - [29/Apr/2020:17:44:54 +0100] "GET /?C=D;O=A HTTP/1.1" 200 467 "http://127.0.0.1:30085/?C=S;O=A" "l"
+172.18.0.1 - - [30/Apr/2020:11:48:27 +0100] "GET / HTTP/1.1" 200 467 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+172.18.0.1 - - [30/Apr/2020:11:48:28 +0100] "GET /favicon.ico HTTP/1.1" 404 490 "http://127.0.0.1:30085/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+172.18.0.1 - - [30/Apr/2020:11:49:47 +0100] "GET / HTTP/1.1" 200 467 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"

@@ -23,7 +23,7 @@
 <?php
 if ($_SERVER["HTTP_USER_AGENT"] == "admin")
 {
-    echo "<p>Mot de passe : leuseragentcestcoule</p>";
+    echo "<p>Mot de passe : User_3g3nt_h4cker</p>";
 } else {
     echo "<p>Vous n'etes pas sur le navigateur 'admin'</p>";
 }
