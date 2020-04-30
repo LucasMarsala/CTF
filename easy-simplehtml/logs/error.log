@@ -1,0 +1,5 @@
+[Thu Apr 09 16:11:14.018219 2020] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 09 16:11:14.018281 2020] [core:notice] [pid 30] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 09 16:11:21.001765 2020] [core:warn] [pid 33] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 09 16:11:21.003207 2020] [mpm_prefork:notice] [pid 33] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 09 16:11:21.003226 2020] [core:notice] [pid 33] AH00094: Command line: '/usr/sbin/apache2'

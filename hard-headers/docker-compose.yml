@@ -1,0 +1,38 @@
+version: '3.2'
+
+services:
+  web:
+    build: .
+    container_name: 'headers.epidocks.me'
+    ports:
+      - '30085:80'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./source:/var/www/html
+      - ./logs:/var/log/apache2
+    networks:
+      - traefik_proxy
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=headers"
+      - "traefik.frontend.rule=Host:headers.epidocks.me"
+      - "traefik.port=80"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.headers.STSSeconds=315360000"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.contentTypeNosniff=true"
+      - "traefik.frontend.headers.forceSTSHeader=true"
+      - "traefik.frontend.headers.SSLHost=epidocks.me"
+      - "traefik.frontend.headers.STSIncludeSubdomains=true"
+      - "traefik.frontend.headers.STSPreload=true"
+      - "traefik.frontend.headers.customFrameOptionsValue: allow-from https:epidocks.me"
+
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+  default:
+    driver: bridge

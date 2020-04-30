@@ -1,0 +1,8 @@
+[Mon Apr 20 13:53:09.689108 2020] [mpm_prefork:notice] [pid 31] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Apr 20 13:53:09.689172 2020] [core:notice] [pid 31] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 12:32:14.570348 2020] [:error] [pid 37] [client 90.119.109.149:55956] script '/var/www/html/553dubcufb1luulel1aqm9ngd2.php' not found or unable to stat
+[Wed Apr 22 12:32:20.651600 2020] [:error] [pid 37] [client 90.119.109.149:55956] script '/var/www/html/553dubcufb1luulel1aqm9ngd2.php' not found or unable to stat
+[Wed Apr 22 13:55:11.590440 2020] [:error] [pid 50] [client 83.198.2.131:37416] script '/var/www/html/header.php' not found or unable to stat
+[Wed Apr 22 14:27:20.369216 2020] [:error] [pid 46] [client 89.158.250.112:54307] script '/var/www/html/done.php' not found or unable to stat
+[Wed Apr 22 14:27:28.990979 2020] [:error] [pid 50] [client 89.158.250.112:54310] script '/var/www/html/congrats.php' not found or unable to stat
+[Fri Apr 24 13:58:43.846407 2020] [:error] [pid 35] [client 83.196.70.11:57170] script '/var/www/html/flag.php' not found or unable to stat
