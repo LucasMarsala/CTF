@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+    web:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        stdin_open: true
+        tty: true
+        ports:
+           - '30085:80'
+        volumes:
+           - ./source:/var/www/html
+           - ./logs:/var/log/apache2
