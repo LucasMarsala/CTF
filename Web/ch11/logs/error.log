@@ -1,0 +1,665 @@
+[Thu Jun 18 17:50:26.188965 2020] [mpm_prefork:notice] [pid 23] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Jun 18 17:50:26.189180 2020] [core:notice] [pid 23] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jun 18 17:53:05.128784 2020] [php7:emerg] [pid 28] [client 172.19.0.1:50822] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/index.php on line 28
+[Thu Jun 18 17:57:44.498374 2020] [php7:emerg] [pid 37] [client 172.19.0.1:51176] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/index.php on line 45
+[Thu Jun 18 17:57:45.258161 2020] [php7:emerg] [pid 30] [client 172.19.0.1:51180] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/index.php on line 45
+[Thu Jun 18 17:58:07.268721 2020] [php7:notice] [pid 26] [client 172.19.0.1:51184] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 33
+[Thu Jun 18 17:58:07.268766 2020] [php7:notice] [pid 26] [client 172.19.0.1:51184] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 36
+[Thu Jun 18 17:58:07.268791 2020] [php7:warn] [pid 26] [client 172.19.0.1:51184] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 36
+[Thu Jun 18 17:58:19.394620 2020] [php7:notice] [pid 36] [client 172.19.0.1:51206] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 30
+[Thu Jun 18 17:59:07.936869 2020] [php7:notice] [pid 29] [client 172.19.0.1:51230] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 30
+[Thu Jun 18 18:04:20.377614 2020] [php7:notice] [pid 37] [client 172.19.0.1:51774] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 30
+[Thu Jun 18 18:07:30.197409 2020] [php7:notice] [pid 28] [client 172.19.0.1:51852] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 30
+[Thu Jun 18 18:08:25.576880 2020] [php7:emerg] [pid 36] [client 172.19.0.1:51900] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/index.php on line 32
+[Thu Jun 18 18:08:27.098671 2020] [php7:emerg] [pid 37] [client 172.19.0.1:51904] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /var/www/html/index.php on line 32
+[Thu Jun 18 18:10:50.461117 2020] [php7:notice] [pid 38] [client 172.19.0.1:51920] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 33
+[Thu Jun 18 18:10:51.695299 2020] [php7:notice] [pid 38] [client 172.19.0.1:51920] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 33, referer: http://127.0.0.1:4444/
+[Thu Jun 18 18:10:53.175930 2020] [php7:notice] [pid 38] [client 172.19.0.1:51920] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 33, referer: http://127.0.0.1:4444/index.php
+[Thu Jun 18 18:10:56.976499 2020] [php7:notice] [pid 38] [client 172.19.0.1:51920] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 33, referer: http://127.0.0.1:4444/
+[Fri Jun 19 14:03:00.993542 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:03:00.995478 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:03:02.310707 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:03:02.312998 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:03:03.328436 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:03:03.330372 2020] [php7:notice] [pid 34] [client 172.19.0.1:52268] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:45.256537 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:45.257332 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:46.805952 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:46.809585 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:46.809689 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 44, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:49.099662 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:49.102331 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:49.810865 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:49.813683 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:04:49.813764 2020] [php7:notice] [pid 26] [client 172.19.0.1:52392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 44, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:15.138795 2020] [php7:notice] [pid 35] [client 172.19.0.1:52440] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 25, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:15.144867 2020] [php7:notice] [pid 35] [client 172.19.0.1:52440] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 36, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:57.568632 2020] [php7:notice] [pid 30] [client 172.19.0.1:52462] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:57.570107 2020] [php7:notice] [pid 30] [client 172.19.0.1:52462] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 37, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:59.011231 2020] [php7:notice] [pid 30] [client 172.19.0.1:52462] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:59.013216 2020] [php7:notice] [pid 30] [client 172.19.0.1:52462] PHP Notice:  Undefined variable: username in /var/www/html/index.php on line 37, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:05:59.013286 2020] [php7:notice] [pid 30] [client 172.19.0.1:52462] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:12.710190 2020] [php7:notice] [pid 28] [client 172.19.0.1:52488] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:12.712711 2020] [php7:notice] [pid 28] [client 172.19.0.1:52488] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:12.712813 2020] [php7:notice] [pid 28] [client 172.19.0.1:52488] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 59, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:12.712894 2020] [php7:notice] [pid 28] [client 172.19.0.1:52488] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:12.712979 2020] [php7:warn] [pid 28] [client 172.19.0.1:52488] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:14.864693 2020] [php7:notice] [pid 36] [client 172.19.0.1:52498] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:14.866025 2020] [php7:notice] [pid 36] [client 172.19.0.1:52498] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:14.866063 2020] [php7:notice] [pid 36] [client 172.19.0.1:52498] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 59, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:14.866074 2020] [php7:notice] [pid 36] [client 172.19.0.1:52498] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:14.866106 2020] [php7:warn] [pid 36] [client 172.19.0.1:52498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:22.848948 2020] [php7:notice] [pid 27] [client 172.19.0.1:52512] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:22.851777 2020] [php7:notice] [pid 27] [client 172.19.0.1:52512] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:22.851861 2020] [php7:notice] [pid 27] [client 172.19.0.1:52512] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 59, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:22.851900 2020] [php7:notice] [pid 27] [client 172.19.0.1:52512] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:06:22.851975 2020] [php7:warn] [pid 27] [client 172.19.0.1:52512] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 62, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:44.968495 2020] [php7:notice] [pid 29] [client 172.19.0.1:52556] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:44.971174 2020] [php7:notice] [pid 29] [client 172.19.0.1:52556] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 61, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:44.971278 2020] [php7:notice] [pid 29] [client 172.19.0.1:52556] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 64, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:44.971371 2020] [php7:warn] [pid 29] [client 172.19.0.1:52556] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 64, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:55.099883 2020] [php7:notice] [pid 37] [client 172.19.0.1:52578] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:55.102327 2020] [php7:notice] [pid 37] [client 172.19.0.1:52578] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 61, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:55.102415 2020] [php7:notice] [pid 37] [client 172.19.0.1:52578] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 64, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:08:55.102473 2020] [php7:warn] [pid 37] [client 172.19.0.1:52578] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 64, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:09:23.662591 2020] [php7:notice] [pid 34] [client 172.19.0.1:52584] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:09:47.575217 2020] [php7:notice] [pid 30] [client 172.19.0.1:52606] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:09:49.136141 2020] [php7:notice] [pid 30] [client 172.19.0.1:52606] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.690277 2020] [php7:notice] [pid 27] [client 172.19.0.1:52630] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.692909 2020] [php7:warn] [pid 27] [client 172.19.0.1:52630] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.693014 2020] [php7:warn] [pid 27] [client 172.19.0.1:52630] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.693075 2020] [php7:warn] [pid 27] [client 172.19.0.1:52630] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.693116 2020] [php7:warn] [pid 27] [client 172.19.0.1:52630] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.693168 2020] [php7:notice] [pid 27] [client 172.19.0.1:52630] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:21.693220 2020] [php7:warn] [pid 27] [client 172.19.0.1:52630] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.950654 2020] [php7:notice] [pid 28] [client 172.19.0.1:52652] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951407 2020] [php7:warn] [pid 28] [client 172.19.0.1:52652] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951425 2020] [php7:warn] [pid 28] [client 172.19.0.1:52652] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951431 2020] [php7:warn] [pid 28] [client 172.19.0.1:52652] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951436 2020] [php7:warn] [pid 28] [client 172.19.0.1:52652] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951443 2020] [php7:notice] [pid 28] [client 172.19.0.1:52652] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:28.951452 2020] [php7:warn] [pid 28] [client 172.19.0.1:52652] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:34.256266 2020] [php7:notice] [pid 29] [client 172.19.0.1:52662] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:34.260175 2020] [php7:warn] [pid 29] [client 172.19.0.1:52662] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:34.260258 2020] [php7:warn] [pid 29] [client 172.19.0.1:52662] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:34.260314 2020] [php7:notice] [pid 29] [client 172.19.0.1:52662] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:34.260352 2020] [php7:warn] [pid 29] [client 172.19.0.1:52662] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.160460 2020] [php7:notice] [pid 37] [client 172.19.0.1:52668] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.162973 2020] [php7:warn] [pid 37] [client 172.19.0.1:52668] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.163073 2020] [php7:warn] [pid 37] [client 172.19.0.1:52668] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.163105 2020] [php7:warn] [pid 37] [client 172.19.0.1:52668] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.163136 2020] [php7:warn] [pid 37] [client 172.19.0.1:52668] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.163171 2020] [php7:notice] [pid 37] [client 172.19.0.1:52668] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:48.163216 2020] [php7:warn] [pid 37] [client 172.19.0.1:52668] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.298307 2020] [php7:notice] [pid 30] [client 172.19.0.1:52674] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300617 2020] [php7:warn] [pid 30] [client 172.19.0.1:52674] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300700 2020] [php7:warn] [pid 30] [client 172.19.0.1:52674] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300729 2020] [php7:warn] [pid 30] [client 172.19.0.1:52674] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300758 2020] [php7:warn] [pid 30] [client 172.19.0.1:52674] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300790 2020] [php7:notice] [pid 30] [client 172.19.0.1:52674] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:11:59.300861 2020] [php7:warn] [pid 30] [client 172.19.0.1:52674] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.519514 2020] [php7:notice] [pid 35] [client 172.19.0.1:52680] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522413 2020] [php7:warn] [pid 35] [client 172.19.0.1:52680] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522524 2020] [php7:warn] [pid 35] [client 172.19.0.1:52680] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522552 2020] [php7:warn] [pid 35] [client 172.19.0.1:52680] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522622 2020] [php7:warn] [pid 35] [client 172.19.0.1:52680] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522663 2020] [php7:notice] [pid 35] [client 172.19.0.1:52680] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 52, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:12.522753 2020] [php7:warn] [pid 35] [client 172.19.0.1:52680] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 52, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.660425 2020] [php7:notice] [pid 38] [client 172.19.0.1:52698] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662613 2020] [php7:warn] [pid 38] [client 172.19.0.1:52698] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662678 2020] [php7:warn] [pid 38] [client 172.19.0.1:52698] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662722 2020] [php7:warn] [pid 38] [client 172.19.0.1:52698] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662746 2020] [php7:warn] [pid 38] [client 172.19.0.1:52698] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662774 2020] [php7:notice] [pid 38] [client 172.19.0.1:52698] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 52, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:13.662826 2020] [php7:warn] [pid 38] [client 172.19.0.1:52698] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 52, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.784483 2020] [php7:notice] [pid 28] [client 172.19.0.1:52704] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787121 2020] [php7:warn] [pid 28] [client 172.19.0.1:52704] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787225 2020] [php7:warn] [pid 28] [client 172.19.0.1:52704] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787267 2020] [php7:warn] [pid 28] [client 172.19.0.1:52704] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787297 2020] [php7:warn] [pid 28] [client 172.19.0.1:52704] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787329 2020] [php7:notice] [pid 28] [client 172.19.0.1:52704] PHP Notice:  Undefined variable: conn in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:30.787429 2020] [php7:error] [pid 28] [client 172.19.0.1:52704] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /var/www/html/index.php:49\nStack trace:\n#0 /var/www/html/index.php(42): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.025359 2020] [php7:notice] [pid 30] [client 172.19.0.1:52722] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028275 2020] [php7:warn] [pid 30] [client 172.19.0.1:52722] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028438 2020] [php7:warn] [pid 30] [client 172.19.0.1:52722] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028493 2020] [php7:warn] [pid 30] [client 172.19.0.1:52722] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028541 2020] [php7:warn] [pid 30] [client 172.19.0.1:52722] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028584 2020] [php7:notice] [pid 30] [client 172.19.0.1:52722] PHP Notice:  Undefined variable: conn in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:12:42.028710 2020] [php7:error] [pid 30] [client 172.19.0.1:52722] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /var/www/html/index.php:49\nStack trace:\n#0 /var/www/html/index.php(42): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.900734 2020] [php7:notice] [pid 38] [client 172.19.0.1:52728] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901525 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901551 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901559 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901567 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901577 2020] [php7:notice] [pid 38] [client 172.19.0.1:52728] PHP Notice:  Undefined variable: conn in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:55.901614 2020] [php7:error] [pid 38] [client 172.19.0.1:52728] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /var/www/html/index.php:49\nStack trace:\n#0 /var/www/html/index.php(42): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.697935 2020] [php7:notice] [pid 38] [client 172.19.0.1:52728] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701384 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701502 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701555 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701592 2020] [php7:warn] [pid 38] [client 172.19.0.1:52728] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701625 2020] [php7:notice] [pid 38] [client 172.19.0.1:52728] PHP Notice:  Undefined variable: conn in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:14:57.701708 2020] [php7:error] [pid 38] [client 172.19.0.1:52728] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /var/www/html/index.php:49\nStack trace:\n#0 /var/www/html/index.php(42): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 49, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.818674 2020] [php7:notice] [pid 37] [client 172.19.0.1:52752] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821259 2020] [php7:warn] [pid 37] [client 172.19.0.1:52752] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821356 2020] [php7:warn] [pid 37] [client 172.19.0.1:52752] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821419 2020] [php7:warn] [pid 37] [client 172.19.0.1:52752] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821489 2020] [php7:warn] [pid 37] [client 172.19.0.1:52752] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821541 2020] [php7:notice] [pid 37] [client 172.19.0.1:52752] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:15:55.821594 2020] [php7:warn] [pid 37] [client 172.19.0.1:52752] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.502890 2020] [php7:notice] [pid 27] [client 172.19.0.1:52774] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504102 2020] [php7:warn] [pid 27] [client 172.19.0.1:52774] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504135 2020] [php7:warn] [pid 27] [client 172.19.0.1:52774] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504148 2020] [php7:warn] [pid 27] [client 172.19.0.1:52774] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504159 2020] [php7:warn] [pid 27] [client 172.19.0.1:52774] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504174 2020] [php7:notice] [pid 27] [client 172.19.0.1:52774] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:08.504191 2020] [php7:warn] [pid 27] [client 172.19.0.1:52774] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.858700 2020] [php7:notice] [pid 36] [client 172.19.0.1:52784] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860383 2020] [php7:warn] [pid 36] [client 172.19.0.1:52784] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860445 2020] [php7:warn] [pid 36] [client 172.19.0.1:52784] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860474 2020] [php7:warn] [pid 36] [client 172.19.0.1:52784] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860498 2020] [php7:warn] [pid 36] [client 172.19.0.1:52784] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860544 2020] [php7:notice] [pid 36] [client 172.19.0.1:52784] PHP Notice:  Undefined variable: sql in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:16:19.860569 2020] [php7:warn] [pid 36] [client 172.19.0.1:52784] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 51, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:16.288198 2020] [php7:notice] [pid 35] [client 172.19.0.1:52790] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:16.290946 2020] [php7:warn] [pid 35] [client 172.19.0.1:52790] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:16.291053 2020] [php7:warn] [pid 35] [client 172.19.0.1:52790] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:16.291095 2020] [php7:warn] [pid 35] [client 172.19.0.1:52790] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:16.291133 2020] [php7:warn] [pid 35] [client 172.19.0.1:52790] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:44.950377 2020] [php7:notice] [pid 29] [client 172.19.0.1:52808] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:44.953027 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:44.953138 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:44.953183 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:44.953234 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:46.356566 2020] [php7:notice] [pid 29] [client 172.19.0.1:52808] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:46.359374 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:46.359560 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:46.359691 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:46.359816 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:50.574916 2020] [php7:notice] [pid 29] [client 172.19.0.1:52808] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:50.577412 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:50.577531 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:50.577617 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:17:50.577652 2020] [php7:warn] [pid 29] [client 172.19.0.1:52808] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:18:14.065789 2020] [php7:notice] [pid 36] [client 172.19.0.1:52834] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:18:14.067090 2020] [php7:error] [pid 36] [client 172.19.0.1:52834] PHP Fatal error:  Uncaught Error: Call to undefined function strings() in /var/www/html/index.php:47\nStack trace:\n#0 /var/www/html/index.php(43): login('usernameza', 'passworddza')\n#1 {main}\n  thrown in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:18:18.942205 2020] [php7:notice] [pid 36] [client 172.19.0.1:52834] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:18:18.944226 2020] [php7:error] [pid 36] [client 172.19.0.1:52834] PHP Fatal error:  Uncaught Error: Call to undefined function strings() in /var/www/html/index.php:47\nStack trace:\n#0 /var/www/html/index.php(43): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:01.222759 2020] [php7:notice] [pid 28] [client 172.19.0.1:52858] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:01.224985 2020] [php7:error] [pid 28] [client 172.19.0.1:52858] PHP Fatal error:  Uncaught Error: Call to undefined function string() in /var/www/html/index.php:47\nStack trace:\n#0 /var/www/html/index.php(43): login('username', 'password')\n#1 {main}\n  thrown in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:35.044176 2020] [php7:notice] [pid 35] [client 172.19.0.1:53266] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:35.045688 2020] [php7:warn] [pid 35] [client 172.19.0.1:53266] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:35.045764 2020] [php7:warn] [pid 35] [client 172.19.0.1:53266] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:35.045799 2020] [php7:warn] [pid 35] [client 172.19.0.1:53266] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:19:35.045827 2020] [php7:warn] [pid 35] [client 172.19.0.1:53266] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:27.765359 2020] [php7:notice] [pid 28] [client 172.19.0.1:53364] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:27.766155 2020] [php7:warn] [pid 28] [client 172.19.0.1:53364] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:27.766186 2020] [php7:warn] [pid 28] [client 172.19.0.1:53364] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:27.766193 2020] [php7:warn] [pid 28] [client 172.19.0.1:53364] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:27.766215 2020] [php7:warn] [pid 28] [client 172.19.0.1:53364] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:43.985792 2020] [php7:notice] [pid 30] [client 172.19.0.1:53392] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:43.987162 2020] [php7:warn] [pid 30] [client 172.19.0.1:53392] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:43.987206 2020] [php7:warn] [pid 30] [client 172.19.0.1:53392] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:43.987219 2020] [php7:warn] [pid 30] [client 172.19.0.1:53392] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:20:43.987229 2020] [php7:warn] [pid 30] [client 172.19.0.1:53392] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:01.197617 2020] [php7:notice] [pid 26] [client 172.19.0.1:53414] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:01.199761 2020] [php7:warn] [pid 26] [client 172.19.0.1:53414] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:01.199866 2020] [php7:warn] [pid 26] [client 172.19.0.1:53414] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:01.199881 2020] [php7:warn] [pid 26] [client 172.19.0.1:53414] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:01.199887 2020] [php7:warn] [pid 26] [client 172.19.0.1:53414] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:02.868499 2020] [php7:notice] [pid 27] [client 172.19.0.1:53424] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:02.871058 2020] [php7:warn] [pid 27] [client 172.19.0.1:53424] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:02.871129 2020] [php7:warn] [pid 27] [client 172.19.0.1:53424] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:02.871152 2020] [php7:warn] [pid 27] [client 172.19.0.1:53424] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:02.871174 2020] [php7:warn] [pid 27] [client 172.19.0.1:53424] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:16.744147 2020] [php7:notice] [pid 30] [client 172.19.0.1:53438] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:16.744919 2020] [php7:warn] [pid 30] [client 172.19.0.1:53438] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:16.744945 2020] [php7:warn] [pid 30] [client 172.19.0.1:53438] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:16.744953 2020] [php7:warn] [pid 30] [client 172.19.0.1:53438] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:16.744970 2020] [php7:warn] [pid 30] [client 172.19.0.1:53438] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:39.005330 2020] [php7:notice] [pid 27] [client 172.19.0.1:53460] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:39.006176 2020] [php7:warn] [pid 27] [client 172.19.0.1:53460] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:39.006205 2020] [php7:warn] [pid 27] [client 172.19.0.1:53460] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:39.006218 2020] [php7:warn] [pid 27] [client 172.19.0.1:53460] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:39.006228 2020] [php7:warn] [pid 27] [client 172.19.0.1:53460] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:44.768366 2020] [php7:notice] [pid 30] [client 172.19.0.1:53482] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:44.771499 2020] [php7:warn] [pid 30] [client 172.19.0.1:53482] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:44.771610 2020] [php7:warn] [pid 30] [client 172.19.0.1:53482] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:44.771643 2020] [php7:warn] [pid 30] [client 172.19.0.1:53482] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:44.771681 2020] [php7:warn] [pid 30] [client 172.19.0.1:53482] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:50.897263 2020] [php7:notice] [pid 34] [client 172.19.0.1:53506] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:50.899872 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:50.899962 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:50.900017 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:50.900059 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:52.294699 2020] [php7:notice] [pid 34] [client 172.19.0.1:53506] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:52.296490 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:52.296531 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:52.296542 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:21:52.296566 2020] [php7:warn] [pid 34] [client 172.19.0.1:53506] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:26.453125 2020] [php7:notice] [pid 35] [client 172.19.0.1:53530] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:26.454811 2020] [php7:warn] [pid 35] [client 172.19.0.1:53530] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:26.454888 2020] [php7:warn] [pid 35] [client 172.19.0.1:53530] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:30.864584 2020] [php7:notice] [pid 38] [client 172.19.0.1:53544] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:30.867337 2020] [php7:warn] [pid 38] [client 172.19.0.1:53544] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:22:30.867459 2020] [php7:warn] [pid 38] [client 172.19.0.1:53544] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 47, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:23:00.063030 2020] [php7:notice] [pid 27] [client 172.19.0.1:53554] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:23:00.066397 2020] [php7:warn] [pid 27] [client 172.19.0.1:53554] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:23:00.066486 2020] [php7:warn] [pid 27] [client 172.19.0.1:53554] PHP Warning:  A non-numeric value encountered in /var/www/html/index.php on line 48, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:24:09.763120 2020] [php7:notice] [pid 38] [client 172.19.0.1:54294] PHP Notice:  Undefined variable: POST in /var/www/html/index.php on line 26, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 19 14:54:16.536577 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 14:54:16.538134 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 19 14:54:16.538161 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 19 14:58:17.154666 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 14:58:17.159025 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 19 14:58:17.159102 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 19 15:12:15.185325 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 15:12:15.186937 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 19 15:12:15.186969 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 19 15:32:54.820114 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 15:32:54.822014 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 19 15:32:54.822061 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 19 16:15:18.680472 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 19 16:15:18.682822 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 19 16:15:18.682865 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Jun 23 11:51:20.403801 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 23 11:51:20.405539 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Tue Jun 23 11:51:20.405563 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Jun 23 11:53:18.982877 2020] [php7:warn] [pid 28] [client 172.19.0.1:36922] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 71
+[Tue Jun 23 11:57:45.053903 2020] [php7:warn] [pid 34] [client 172.19.0.1:37018] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 77
+[Tue Jun 23 11:58:21.699191 2020] [php7:warn] [pid 38] [client 172.19.0.1:37038] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 11:58:37.937524 2020] [php7:warn] [pid 30] [client 172.19.0.1:37056] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 81
+[Tue Jun 23 11:58:38.586368 2020] [php7:warn] [pid 30] [client 172.19.0.1:37056] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 81
+[Tue Jun 23 11:58:45.489593 2020] [php7:warn] [pid 37] [client 172.19.0.1:37076] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 77
+[Tue Jun 23 11:59:44.105221 2020] [php7:warn] [pid 28] [client 172.19.0.1:37096] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 11:59:53.489579 2020] [php7:warn] [pid 36] [client 172.19.0.1:37114] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:00:21.632148 2020] [php7:warn] [pid 31] [client 172.19.0.1:37136] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:00:35.631892 2020] [php7:warn] [pid 29] [client 172.19.0.1:37158] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:00:46.116057 2020] [php7:warn] [pid 28] [client 172.19.0.1:37182] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:00:54.785999 2020] [php7:warn] [pid 38] [client 172.19.0.1:37204] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:01:09.836705 2020] [php7:warn] [pid 30] [client 172.19.0.1:37226] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:01:14.324904 2020] [php7:warn] [pid 34] [client 172.19.0.1:37236] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:01:18.673270 2020] [php7:warn] [pid 28] [client 172.19.0.1:37242] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 80
+[Tue Jun 23 12:01:36.763934 2020] [php7:warn] [pid 35] [client 172.19.0.1:37256] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:03:35.982005 2020] [php7:warn] [pid 30] [client 172.19.0.1:37274] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:03:47.281545 2020] [php7:warn] [pid 37] [client 172.19.0.1:37296] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:03:53.691646 2020] [php7:warn] [pid 29] [client 172.19.0.1:37314] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:05:49.473443 2020] [php7:warn] [pid 34] [client 172.19.0.1:37366] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:06:03.449978 2020] [php7:warn] [pid 39] [client 172.19.0.1:37388] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:06:20.912398 2020] [php7:warn] [pid 31] [client 172.19.0.1:37406] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:06:50.572796 2020] [php7:warn] [pid 38] [client 172.19.0.1:37428] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:07:27.607263 2020] [php7:warn] [pid 29] [client 172.19.0.1:37468] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:07:53.903741 2020] [php7:warn] [pid 37] [client 172.19.0.1:37490] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:08:03.623596 2020] [php7:warn] [pid 28] [client 172.19.0.1:37504] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:08:28.227854 2020] [php7:warn] [pid 35] [client 172.19.0.1:37522] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:08:33.223813 2020] [php7:warn] [pid 34] [client 172.19.0.1:37534] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:09:11.182041 2020] [php7:warn] [pid 29] [client 172.19.0.1:37550] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:09:21.862459 2020] [php7:warn] [pid 35] [client 172.19.0.1:37568] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:09:43.886874 2020] [php7:warn] [pid 39] [client 172.19.0.1:37586] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:10:11.760899 2020] [php7:warn] [pid 29] [client 172.19.0.1:37604] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:10:20.386527 2020] [php7:warn] [pid 31] [client 172.19.0.1:37622] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:10:21.237759 2020] [php7:warn] [pid 39] [client 172.19.0.1:37636] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:10:57.795312 2020] [php7:warn] [pid 34] [client 172.19.0.1:37650] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 107
+[Tue Jun 23 12:11:38.454795 2020] [php7:warn] [pid 37] [client 172.19.0.1:37668] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:11:46.268001 2020] [php7:warn] [pid 39] [client 172.19.0.1:37686] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:12:07.743633 2020] [php7:warn] [pid 30] [client 172.19.0.1:37704] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:12:52.896584 2020] [php7:warn] [pid 31] [client 172.19.0.1:37734] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:13:20.548822 2020] [php7:warn] [pid 36] [client 172.19.0.1:38266] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:13:21.128518 2020] [php7:warn] [pid 35] [client 172.19.0.1:38272] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:13:21.403892 2020] [php7:warn] [pid 35] [client 172.19.0.1:38272] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:13:46.288065 2020] [php7:warn] [pid 37] [client 172.19.0.1:38304] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:14:01.542720 2020] [php7:warn] [pid 38] [client 172.19.0.1:38322] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:14:33.599066 2020] [php7:warn] [pid 28] [client 172.19.0.1:38348] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 83
+[Tue Jun 23 12:15:11.452523 2020] [php7:warn] [pid 39] [client 172.19.0.1:38426] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:15:55.916546 2020] [php7:warn] [pid 29] [client 172.19.0.1:38444] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:15:56.832706 2020] [php7:warn] [pid 29] [client 172.19.0.1:38444] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:16:21.150574 2020] [php7:warn] [pid 34] [client 172.19.0.1:38472] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 90
+[Tue Jun 23 12:16:55.050748 2020] [php7:warn] [pid 35] [client 172.19.0.1:38486] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 90
+[Tue Jun 23 12:17:10.182169 2020] [php7:warn] [pid 30] [client 172.19.0.1:38504] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 90
+[Tue Jun 23 12:17:21.221973 2020] [php7:warn] [pid 38] [client 172.19.0.1:38526] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 90
+[Tue Jun 23 12:17:44.740268 2020] [php7:warn] [pid 29] [client 172.19.0.1:38544] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:18:02.531780 2020] [php7:warn] [pid 39] [client 172.19.0.1:38562] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:18:24.226106 2020] [php7:warn] [pid 35] [client 172.19.0.1:38580] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 82
+[Tue Jun 23 12:19:48.701739 2020] [php7:warn] [pid 34] [client 172.19.0.1:38696] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:21:42.609691 2020] [php7:warn] [pid 38] [client 172.19.0.1:38716] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:26:38.097669 2020] [php7:warn] [pid 29] [client 172.19.0.1:38992] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:27:41.087746 2020] [php7:warn] [pid 39] [client 172.19.0.1:39034] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:27:41.651843 2020] [php7:warn] [pid 35] [client 172.19.0.1:39044] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:27:41.820074 2020] [php7:warn] [pid 35] [client 172.19.0.1:39044] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:27:41.995505 2020] [php7:warn] [pid 35] [client 172.19.0.1:39044] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:27:42.149255 2020] [php7:warn] [pid 35] [client 172.19.0.1:39044] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Tue Jun 23 12:28:33.967875 2020] [php7:warn] [pid 30] [client 172.19.0.1:39060] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Wed Jun 24 15:47:01.451149 2020] [mpm_prefork:notice] [pid 22] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jun 24 15:47:01.451194 2020] [core:notice] [pid 22] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jun 24 15:47:08.618166 2020] [php7:warn] [pid 25] [client 172.20.0.1:35556] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Wed Jun 24 15:33:41.983769 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 24 15:33:41.987001 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jun 24 15:33:41.987066 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jun 24 15:33:54.235829 2020] [php7:warn] [pid 32] [client 172.20.0.1:36896] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Thu Jun 25 15:38:29.209109 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 25 15:38:29.211397 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Jun 25 15:38:29.211434 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jun 25 15:38:34.415991 2020] [php7:warn] [pid 28] [client 172.20.0.1:37314] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Fri Jun 26 15:41:55.190522 2020] [core:warn] [pid 28] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 15:41:55.192124 2020] [mpm_prefork:notice] [pid 28] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 26 15:41:55.192144 2020] [core:notice] [pid 28] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 26 15:41:58.851488 2020] [php7:warn] [pid 33] [client 172.20.0.1:37470] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 79
+[Fri Jun 26 15:48:36.491980 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 15:48:36.493644 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 26 15:48:36.493663 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 26 15:55:58.905836 2020] [php7:warn] [pid 29] [client 172.20.0.1:37990] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 332
+[Fri Jun 26 15:57:31.106786 2020] [php7:warn] [pid 37] [client 172.20.0.1:38022] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 16:00:16.365056 2020] [php7:warn] [pid 42] [client 172.20.0.1:38064] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:20:46.001554 2020] [php7:warn] [pid 41] [client 172.20.0.1:38388] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:20:47.477651 2020] [php7:warn] [pid 41] [client 172.20.0.1:38388] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:21:12.539739 2020] [php7:warn] [pid 33] [client 172.20.0.1:38428] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:21:13.429815 2020] [php7:warn] [pid 33] [client 172.20.0.1:38428] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:21:15.360277 2020] [php7:warn] [pid 33] [client 172.20.0.1:38428] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:21.622281 2020] [php7:warn] [pid 31] [client 172.20.0.1:38498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:22.182824 2020] [php7:warn] [pid 31] [client 172.20.0.1:38498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:22.357774 2020] [php7:warn] [pid 31] [client 172.20.0.1:38498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:22.526241 2020] [php7:warn] [pid 31] [client 172.20.0.1:38498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:22.686560 2020] [php7:warn] [pid 31] [client 172.20.0.1:38498] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:22.843952 2020] [php7:warn] [pid 43] [client 172.20.0.1:38520] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:24.014076 2020] [php7:warn] [pid 44] [client 172.20.0.1:38512] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:38.270472 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 14:22:38.272250 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 26 14:22:38.272281 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 26 14:22:41.259524 2020] [php7:warn] [pid 28] [client 172.20.0.1:38538] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:22:48.229861 2020] [php7:warn] [pid 35] [client 172.20.0.1:38566] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:23:17.508803 2020] [php7:warn] [pid 29] [client 172.20.0.1:38602] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:23:26.673148 2020] [php7:warn] [pid 39] [client 172.20.0.1:38630] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:25:13.927090 2020] [php7:warn] [pid 28] [client 172.20.0.1:38668] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:27:12.161571 2020] [php7:warn] [pid 35] [client 172.20.0.1:38740] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:27:13.045747 2020] [php7:warn] [pid 35] [client 172.20.0.1:38740] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:27:41.236039 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 26 14:27:41.237864 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri Jun 26 14:27:41.237890 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Jun 26 14:27:43.082217 2020] [php7:warn] [pid 30] [client 172.20.0.1:38772] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:27:44.170825 2020] [php7:warn] [pid 31] [client 172.20.0.1:38788] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:27:47.577112 2020] [php7:warn] [pid 33] [client 172.20.0.1:38786] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 14:44:42.858744 2020] [php7:warn] [pid 43] [client 172.20.0.1:38838] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:27:11.551626 2020] [php7:warn] [pid 30] [client 172.20.0.1:38882] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:27:50.628616 2020] [php7:warn] [pid 34] [client 172.20.0.1:38914] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:28:17.936280 2020] [php7:warn] [pid 42] [client 172.20.0.1:38942] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:35:22.549791 2020] [php7:warn] [pid 44] [client 172.20.0.1:38970] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:35:34.071616 2020] [php7:warn] [pid 39] [client 172.20.0.1:39004] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:35:57.334659 2020] [php7:warn] [pid 38] [client 172.20.0.1:39032] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:35:58.815805 2020] [php7:warn] [pid 45] [client 172.20.0.1:39048] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:36:51.238787 2020] [php7:warn] [pid 42] [client 172.20.0.1:39070] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 306
+[Fri Jun 26 15:36:58.903227 2020] [php7:warn] [pid 48] [client 172.20.0.1:39098] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:37:02.432199 2020] [php7:warn] [pid 39] [client 172.20.0.1:39106] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:37:09.681843 2020] [php7:warn] [pid 46] [client 172.20.0.1:39128] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:37:28.872215 2020] [php7:warn] [pid 45] [client 172.20.0.1:39156] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:38:44.593886 2020] [php7:warn] [pid 46] [client 172.20.0.1:39412] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:39:30.983872 2020] [php7:warn] [pid 48] [client 172.20.0.1:39478] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:39:54.493484 2020] [php7:warn] [pid 54] [client 172.20.0.1:39506] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:40:06.165073 2020] [php7:warn] [pid 48] [client 172.20.0.1:39534] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:40:30.435870 2020] [php7:warn] [pid 50] [client 172.20.0.1:39560] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:40:49.133056 2020] [php7:warn] [pid 48] [client 172.20.0.1:39596] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:40:53.980242 2020] [php7:warn] [pid 48] [client 172.20.0.1:39596] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:40:57.993107 2020] [php7:warn] [pid 48] [client 172.20.0.1:39596] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:41:29.926918 2020] [php7:warn] [pid 50] [client 172.20.0.1:39632] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:41:39.653627 2020] [php7:warn] [pid 49] [client 172.20.0.1:39658] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:41:47.082039 2020] [php7:warn] [pid 54] [client 172.20.0.1:39680] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:42:00.681802 2020] [php7:warn] [pid 49] [client 172.20.0.1:39706] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:42:16.150796 2020] [php7:warn] [pid 54] [client 172.20.0.1:39732] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:42:42.104927 2020] [php7:warn] [pid 45] [client 172.20.0.1:39758] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:42:53.273816 2020] [php7:warn] [pid 55] [client 172.20.0.1:39786] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:43:08.338249 2020] [php7:warn] [pid 52] [client 172.20.0.1:39812] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:43:12.851911 2020] [php7:warn] [pid 52] [client 172.20.0.1:39812] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:43:19.648181 2020] [php7:warn] [pid 54] [client 172.20.0.1:39842] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 15:43:31.248283 2020] [php7:warn] [pid 49] [client 172.20.0.1:39870] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:03:18.664687 2020] [php7:warn] [pid 48] [client 172.20.0.1:39934] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:03:45.132910 2020] [php7:warn] [pid 50] [client 172.20.0.1:39968] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:03:51.310371 2020] [php7:warn] [pid 58] [client 172.20.0.1:39998] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:03:56.012165 2020] [php7:warn] [pid 56] [client 172.20.0.1:40004] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:04:01.834168 2020] [php7:warn] [pid 57] [client 172.20.0.1:40028] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:04:12.094306 2020] [php7:warn] [pid 56] [client 172.20.0.1:40056] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:04:19.463921 2020] [php7:warn] [pid 55] [client 172.20.0.1:40084] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:04:28.317392 2020] [php7:warn] [pid 60] [client 172.20.0.1:40112] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:05:02.124580 2020] [php7:warn] [pid 50] [client 172.20.0.1:40140] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:05:19.408116 2020] [php7:warn] [pid 57] [client 172.20.0.1:40168] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:06:04.096230 2020] [php7:warn] [pid 66] [client 172.20.0.1:40198] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:06:20.721968 2020] [php7:warn] [pid 65] [client 172.20.0.1:40226] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:06:34.449644 2020] [php7:warn] [pid 66] [client 172.20.0.1:40254] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:06:41.172756 2020] [php7:warn] [pid 65] [client 172.20.0.1:40282] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:06:59.465006 2020] [php7:warn] [pid 50] [client 172.20.0.1:40310] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:07:04.735052 2020] [php7:warn] [pid 57] [client 172.20.0.1:40336] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:07:13.774305 2020] [php7:warn] [pid 66] [client 172.20.0.1:40364] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:07:17.299775 2020] [php7:warn] [pid 50] [client 172.20.0.1:40370] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:07:27.715736 2020] [php7:warn] [pid 72] [client 172.20.0.1:40394] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:07:44.349153 2020] [php7:warn] [pid 66] [client 172.20.0.1:40422] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:09:12.753210 2020] [php7:warn] [pid 74] [client 172.20.0.1:40944] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:09:42.555448 2020] [php7:warn] [pid 66] [client 172.20.0.1:40970] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:10:03.968228 2020] [php7:warn] [pid 73] [client 172.20.0.1:40996] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:10:04.923424 2020] [php7:warn] [pid 73] [client 172.20.0.1:40996] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:11:10.639858 2020] [php7:warn] [pid 66] [client 172.20.0.1:41052] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:11:15.928065 2020] [php7:warn] [pid 67] [client 172.20.0.1:41078] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:11:25.373968 2020] [php7:warn] [pid 74] [client 172.20.0.1:41106] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:11:35.375619 2020] [php7:warn] [pid 73] [client 172.20.0.1:41132] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:11:41.401329 2020] [php7:warn] [pid 71] [client 172.20.0.1:41158] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:12:18.438530 2020] [php7:warn] [pid 65] [client 172.20.0.1:41190] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:12:19.898202 2020] [php7:warn] [pid 65] [client 172.20.0.1:41190] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:12:32.049187 2020] [php7:warn] [pid 71] [client 172.20.0.1:41224] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:12:42.017101 2020] [php7:warn] [pid 77] [client 172.20.0.1:41252] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:13:07.754848 2020] [php7:warn] [pid 75] [client 172.20.0.1:41568] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:13:34.495151 2020] [php7:warn] [pid 79] [client 172.20.0.1:41640] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:13:35.311263 2020] [php7:warn] [pid 79] [client 172.20.0.1:41640] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:13:51.984488 2020] [php7:warn] [pid 75] [client 172.20.0.1:41674] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:14:17.235376 2020] [php7:warn] [pid 77] [client 172.20.0.1:41702] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:14:21.393781 2020] [php7:warn] [pid 71] [client 172.20.0.1:41712] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:14:22.490759 2020] [php7:warn] [pid 67] [client 172.20.0.1:41716] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:14:22.666614 2020] [php7:warn] [pid 67] [client 172.20.0.1:41716] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:14:54.404631 2020] [php7:warn] [pid 80] [client 172.20.0.1:41736] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:17:39.044036 2020] [php7:warn] [pid 67] [client 172.20.0.1:41768] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:18:43.048584 2020] [php7:warn] [pid 82] [client 172.20.0.1:41800] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 286
+[Fri Jun 26 16:18:44.015876 2020] [php7:warn] [pid 82] [client 172.20.0.1:41800] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 286
+[Fri Jun 26 16:18:44.253977 2020] [php7:warn] [pid 81] [client 172.20.0.1:41806] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 286
+[Fri Jun 26 16:19:22.116310 2020] [php7:warn] [pid 71] [client 172.20.0.1:41838] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 305
+[Fri Jun 26 16:20:39.949200 2020] [php7:warn] [pid 84] [client 172.20.0.1:41870] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 290
+[Fri Jun 26 16:20:42.409757 2020] [php7:warn] [pid 84] [client 172.20.0.1:41870] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 290
+[Fri Jun 26 16:21:16.836744 2020] [php7:warn] [pid 83] [client 172.20.0.1:41906] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 267
+[Fri Jun 26 16:21:57.038079 2020] [php7:warn] [pid 84] [client 172.20.0.1:41938] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 304
+[Fri Jun 26 16:22:09.110235 2020] [php7:warn] [pid 67] [client 172.20.0.1:41964] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 297
+[Fri Jun 26 16:24:05.006543 2020] [php7:warn] [pid 84] [client 172.20.0.1:41986] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:24:50.766303 2020] [php7:warn] [pid 74] [client 172.20.0.1:42110] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:25:06.008766 2020] [php7:warn] [pid 50] [client 172.20.0.1:42136] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:25:28.016382 2020] [php7:warn] [pid 88] [client 172.20.0.1:42158] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:26:16.352776 2020] [php7:warn] [pid 81] [client 172.20.0.1:42186] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:26:48.607864 2020] [php7:warn] [pid 74] [client 172.20.0.1:42214] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:26:49.712016 2020] [php7:warn] [pid 89] [client 172.20.0.1:42236] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:27:06.314514 2020] [php7:warn] [pid 88] [client 172.20.0.1:42246] PHP Warning:  mysqli::query(): Empty query in /var/www/html/index.php on line 258
+[Fri Jun 26 16:28:44.272357 2020] [php7:error] [pid 77] [client 172.20.0.1:42296] script '/var/www/html/Login.php' not found or unable to stat, referer: http://127.0.0.1:4444/
+[Fri Jun 26 16:28:54.696428 2020] [php7:warn] [pid 91] [client 172.20.0.1:42302] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/
+[Fri Jun 26 16:29:06.261909 2020] [php7:warn] [pid 87] [client 172.20.0.1:42330] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/
+[Fri Jun 26 16:29:11.864292 2020] [php7:warn] [pid 89] [client 172.20.0.1:42362] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:29:30.627408 2020] [php7:warn] [pid 92] [client 172.20.0.1:42392] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:30:07.043814 2020] [php7:warn] [pid 88] [client 172.20.0.1:42474] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:34:30.434912 2020] [php7:warn] [pid 91] [client 172.20.0.1:42824] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:54:23.380261 2020] [php7:warn] [pid 128] [client 172.20.0.1:44106] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:55:05.061183 2020] [php7:warn] [pid 129] [client 172.20.0.1:44134] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Fri Jun 26 16:55:40.484614 2020] [php7:warn] [pid 102] [client 172.20.0.1:44162] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 10:45:09.804105 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 10:45:09.809384 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 10:45:09.809443 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 11:18:45.180983 2020] [php7:warn] [pid 42] [client 172.20.0.1:49524] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42, referer: http://127.0.0.1:4444/
+[Mon Jun 29 11:27:17.965079 2020] [php7:warn] [pid 42] [client 172.20.0.1:49772] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:30:04.241103 2020] [php7:warn] [pid 40] [client 172.20.0.1:49828] PHP Warning:  A non-numeric value encountered in /var/www/html/login.php on line 72, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:30:04.241148 2020] [php7:warn] [pid 40] [client 172.20.0.1:49828] PHP Warning:  A non-numeric value encountered in /var/www/html/login.php on line 72, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:33:03.648243 2020] [php7:warn] [pid 43] [client 172.20.0.1:49886] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:34:05.588403 2020] [php7:warn] [pid 39] [client 172.20.0.1:49892] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:37:07.849829 2020] [php7:warn] [pid 28] [client 172.20.0.1:49918] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:37:09.935834 2020] [php7:warn] [pid 41] [client 172.20.0.1:49924] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:38:23.276334 2020] [php7:warn] [pid 40] [client 172.20.0.1:50030] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:39:15.534803 2020] [php7:warn] [pid 31] [client 172.20.0.1:50088] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:41:50.832033 2020] [php7:warn] [pid 42] [client 172.20.0.1:50156] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:44:37.768016 2020] [php7:warn] [pid 30] [client 172.20.0.1:50192] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:49:55.916846 2020] [php7:warn] [pid 28] [client 172.20.0.1:50342] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:50:32.665695 2020] [php7:warn] [pid 41] [client 172.20.0.1:50348] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:50:44.643561 2020] [php7:warn] [pid 31] [client 172.20.0.1:50354] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:52:27.850502 2020] [php7:notice] [pid 40] [client 172.20.0.1:50360] PHP Notice:  Undefined index: jwt in /var/www/html/login.php on line 74, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:52:41.343812 2020] [php7:notice] [pid 42] [client 172.20.0.1:50372] PHP Notice:  Undefined index: jwt in /var/www/html/login.php on line 74, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:52:44.945007 2020] [php7:warn] [pid 32] [client 172.20.0.1:50382] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:52:49.566738 2020] [php7:warn] [pid 43] [client 172.20.0.1:50388] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:52:59.608806 2020] [php7:warn] [pid 39] [client 172.20.0.1:50394] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:23.984188 2020] [php7:warn] [pid 28] [client 172.20.0.1:50400] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:26.103395 2020] [php7:warn] [pid 41] [client 172.20.0.1:50406] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:27.461827 2020] [php7:warn] [pid 31] [client 172.20.0.1:50412] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:28.458579 2020] [php7:warn] [pid 30] [client 172.20.0.1:50418] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:29.247416 2020] [php7:warn] [pid 40] [client 172.20.0.1:50424] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:53:29.953069 2020] [php7:warn] [pid 32] [client 172.20.0.1:50430] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:54:51.611090 2020] [php7:warn] [pid 36] [client 172.20.0.1:50450] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:54:57.652626 2020] [php7:warn] [pid 42] [client 172.20.0.1:50456] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:55:27.489713 2020] [php7:warn] [pid 43] [client 172.20.0.1:50462] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 11:55:46.800510 2020] [php7:notice] [pid 39] [client 172.20.0.1:50470] PHP Notice:  Undefined index: jwt: in /var/www/html/login.php on line 74, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:57:01.201208 2020] [php7:notice] [pid 41] [client 172.20.0.1:50482] PHP Notice:  Undefined index: jwt: in /var/www/html/login.php on line 74, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:58:55.466520 2020] [php7:notice] [pid 30] [client 172.20.0.1:50512] PHP Notice:  Undefined index: jwt: in /var/www/html/login.php on line 76, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:59:33.330554 2020] [php7:notice] [pid 32] [client 172.20.0.1:50526] PHP Notice:  Undefined index: jwt: in /var/www/html/login.php on line 76, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 11:59:51.671808 2020] [php7:notice] [pid 42] [client 172.20.0.1:50536] PHP Notice:  Undefined index: jwt in /var/www/html/login.php on line 76, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 12:00:25.333895 2020] [php7:warn] [pid 31] [client 172.20.0.1:50558] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:00:27.272717 2020] [php7:warn] [pid 41] [client 172.20.0.1:50564] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:01:05.842324 2020] [php7:warn] [pid 40] [client 172.20.0.1:50570] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:08.572924 2020] [php7:warn] [pid 32] [client 172.20.0.1:50586] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:12.540741 2020] [php7:warn] [pid 32] [client 172.20.0.1:50586] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:17.726492 2020] [php7:warn] [pid 43] [client 172.20.0.1:50594] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:19.805446 2020] [php7:warn] [pid 42] [client 172.20.0.1:50600] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:30.875498 2020] [php7:warn] [pid 39] [client 172.20.0.1:50606] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:44.474124 2020] [php7:warn] [pid 28] [client 172.20.0.1:50612] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:02:46.152472 2020] [php7:warn] [pid 31] [client 172.20.0.1:50618] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:04:47.797644 2020] [php7:warn] [pid 32] [client 172.20.0.1:50644] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:04:57.979205 2020] [php7:warn] [pid 43] [client 172.20.0.1:50650] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:05:04.412927 2020] [php7:warn] [pid 42] [client 172.20.0.1:50656] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:08:51.764330 2020] [php7:warn] [pid 39] [client 172.20.0.1:50754] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:09:14.997158 2020] [php7:warn] [pid 28] [client 172.20.0.1:50760] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:10:40.050561 2020] [php7:warn] [pid 43] [client 172.20.0.1:50802] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:10:42.987028 2020] [php7:warn] [pid 42] [client 172.20.0.1:50808] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:10:54.415879 2020] [php7:warn] [pid 39] [client 172.20.0.1:50814] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:11:17.048019 2020] [php7:warn] [pid 28] [client 172.20.0.1:50822] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:11:43.989699 2020] [php7:warn] [pid 40] [client 172.20.0.1:50834] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:11:50.412021 2020] [php7:warn] [pid 31] [client 172.20.0.1:50840] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:11:59.051421 2020] [php7:warn] [pid 30] [client 172.20.0.1:50846] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:12:02.842693 2020] [php7:warn] [pid 30] [client 172.20.0.1:50846] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:12:07.541191 2020] [php7:warn] [pid 30] [client 172.20.0.1:50846] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:12:32.421772 2020] [php7:warn] [pid 41] [client 172.20.0.1:50856] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:12:45.606194 2020] [php7:warn] [pid 32] [client 172.20.0.1:50862] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:13:03.324339 2020] [php7:warn] [pid 36] [client 172.20.0.1:50868] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:13:16.008776 2020] [php7:warn] [pid 43] [client 172.20.0.1:50874] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:17:51.389980 2020] [php7:warn] [pid 28] [client 172.20.0.1:50894] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:18:00.160516 2020] [php7:warn] [pid 40] [client 172.20.0.1:50900] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:19:32.855235 2020] [php7:warn] [pid 31] [client 172.20.0.1:50906] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:19:32.857662 2020] [php7:warn] [pid 31] [client 172.20.0.1:50906] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:19:39.885238 2020] [php7:warn] [pid 30] [client 172.20.0.1:50914] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:19:39.887487 2020] [php7:warn] [pid 30] [client 172.20.0.1:50914] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:20:19.187213 2020] [php7:notice] [pid 39] [client 172.20.0.1:50942] PHP Notice:  Undefined index: jwt in /var/www/html/login.php on line 76
+[Mon Jun 29 12:20:39.518066 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 12:20:39.519636 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 12:20:39.519671 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 12:21:47.851413 2020] [php7:notice] [pid 33] [client 172.20.0.1:50966] PHP Notice:  Undefined index: jwt in /var/www/html/login.php on line 76
+[Mon Jun 29 12:22:20.195504 2020] [php7:warn] [pid 29] [client 172.20.0.1:50986] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:22:45.874469 2020] [php7:warn] [pid 30] [client 172.20.0.1:51002] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:28:13.099957 2020] [php7:warn] [pid 35] [client 172.20.0.1:51056] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:28:48.737694 2020] [php7:warn] [pid 29] [client 172.20.0.1:51062] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:01.954106 2020] [php7:warn] [pid 31] [client 172.20.0.1:51068] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:03.828057 2020] [php7:warn] [pid 31] [client 172.20.0.1:51068] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:04.610707 2020] [php7:warn] [pid 31] [client 172.20.0.1:51068] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:22.886962 2020] [php7:warn] [pid 28] [client 172.20.0.1:51078] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:24.060504 2020] [php7:warn] [pid 28] [client 172.20.0.1:51078] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:24.819262 2020] [php7:warn] [pid 28] [client 172.20.0.1:51078] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:25.060864 2020] [php7:warn] [pid 28] [client 172.20.0.1:51078] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 42
+[Mon Jun 29 12:29:39.631783 2020] [php7:warn] [pid 32] [client 172.20.0.1:51096] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43
+[Mon Jun 29 12:33:34.457158 2020] [php7:warn] [pid 37] [client 172.20.0.1:51224] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:33:36.744232 2020] [php7:warn] [pid 37] [client 172.20.0.1:51224] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:36:17.290664 2020] [php7:warn] [pid 41] [client 172.20.0.1:51288] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:48:21.665540 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 12:48:21.669491 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 12:48:21.669576 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 12:56:20.063691 2020] [php7:warn] [pid 34] [client 172.20.0.1:52006] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:56:37.298854 2020] [php7:warn] [pid 35] [client 172.20.0.1:52012] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:56:52.870411 2020] [php7:emerg] [pid 28] [client 172.20.0.1:52022] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/login.php on line 76, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:57:06.094799 2020] [php7:warn] [pid 30] [client 172.20.0.1:52026] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:57:10.246097 2020] [php7:warn] [pid 30] [client 172.20.0.1:52026] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 12:57:14.011294 2020] [php7:warn] [pid 30] [client 172.20.0.1:52026] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:55:23.187376 2020] [php7:warn] [pid 43] [client 172.20.0.1:55670] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:55:37.787958 2020] [php7:warn] [pid 64] [client 172.20.0.1:55690] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 16:22:16.614832 2020] [php7:warn] [pid 70] [client 172.20.0.1:56106] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:47:25.626521 2020] [php7:warn] [pid 48] [client 172.20.0.1:57698] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/
+[Mon Jun 29 14:47:57.977514 2020] [php7:warn] [pid 68] [client 172.20.0.1:57706] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/
+[Mon Jun 29 14:48:00.985095 2020] [php7:warn] [pid 68] [client 172.20.0.1:57706] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/
+[Mon Jun 29 14:48:02.649385 2020] [php7:warn] [pid 68] [client 172.20.0.1:57706] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/
+[Mon Jun 29 14:48:15.842607 2020] [php7:warn] [pid 78] [client 172.20.0.1:57722] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 44, referer: http://127.0.0.1:4444/
+[Mon Jun 29 14:50:02.174046 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 14:50:02.175652 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 14:50:02.175678 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 14:50:05.907511 2020] [php7:emerg] [pid 28] [client 172.20.0.1:57796] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 14:50:08.274043 2020] [php7:emerg] [pid 29] [client 172.20.0.1:57800] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 14:50:18.797528 2020] [php7:emerg] [pid 30] [client 172.20.0.1:57804] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:50:25.068485 2020] [php7:emerg] [pid 31] [client 172.20.0.1:57812] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:50:38.493175 2020] [php7:warn] [pid 32] [client 172.20.0.1:57816] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 43, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:50:48.500353 2020] [php7:emerg] [pid 29] [client 172.20.0.1:57826] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:50:49.787237 2020] [php7:emerg] [pid 30] [client 172.20.0.1:57830] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE), expecting ',' or ';' in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:51:00.999678 2020] [php7:warn] [pid 31] [client 172.20.0.1:57834] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:51:02.171358 2020] [php7:warn] [pid 31] [client 172.20.0.1:57834] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 45, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:54:27.607010 2020] [php7:emerg] [pid 35] [client 172.20.0.1:57902] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/login.php on line 41, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 14:54:45.146997 2020] [php7:emerg] [pid 34] [client 172.20.0.1:57906] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/login.php on line 41, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 14:54:48.073422 2020] [php7:emerg] [pid 28] [client 172.20.0.1:57910] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/login.php on line 41, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 14:54:55.542683 2020] [php7:emerg] [pid 29] [client 172.20.0.1:57914] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/login.php on line 41, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:54:57.119739 2020] [php7:emerg] [pid 32] [client 172.20.0.1:57922] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/login.php on line 41, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:55:18.567326 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 14:55:18.568905 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 14:55:18.568940 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 14:55:24.319822 2020] [php7:warn] [pid 28] [client 172.20.0.1:57926] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 46, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 14:58:45.080388 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 14:58:45.082384 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 14:58:45.082411 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 14:58:51.049769 2020] [php7:warn] [pid 28] [client 172.20.0.1:58064] PHP Warning:  mysqli::query(): Empty query in /var/www/html/login.php on line 46, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:00:10.701226 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:00:10.702861 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:00:10.702900 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:05:05.821586 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:05:05.823479 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:05:05.823513 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:09:25.346690 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:09:25.348275 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:09:25.348305 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:17:44.826721 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:17:44.828523 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:17:44.828556 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:21:58.354868 2020] [php7:emerg] [pid 40] [client 172.20.0.1:58430] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /var/www/html/login.php on line 39, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 15:22:03.304774 2020] [php7:emerg] [pid 31] [client 172.20.0.1:58434] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /var/www/html/login.php on line 39, referer: http://127.0.0.1:4444/login.php
+[Mon Jun 29 15:22:07.769046 2020] [php7:emerg] [pid 30] [client 172.20.0.1:58438] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /var/www/html/login.php on line 39, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:21.916364 2020] [php7:emerg] [pid 32] [client 172.20.0.1:58444] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:22.684548 2020] [php7:emerg] [pid 34] [client 172.20.0.1:58448] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:23.879926 2020] [php7:emerg] [pid 33] [client 172.20.0.1:58452] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:31.245313 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:22:31.247193 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:22:31.247221 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:22:33.167558 2020] [php7:emerg] [pid 29] [client 172.20.0.1:58456] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:33.843788 2020] [php7:emerg] [pid 30] [client 172.20.0.1:58460] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:34.151875 2020] [php7:emerg] [pid 31] [client 172.20.0.1:58464] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:34.317820 2020] [php7:emerg] [pid 32] [client 172.20.0.1:58468] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:34.491197 2020] [php7:emerg] [pid 33] [client 172.20.0.1:58472] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:34.641737 2020] [php7:emerg] [pid 29] [client 172.20.0.1:58476] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:34.804901 2020] [php7:emerg] [pid 30] [client 172.20.0.1:58480] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:22:40.074899 2020] [php7:emerg] [pid 31] [client 172.20.0.1:58484] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/login.php on line 40, referer: http://127.0.0.1:4444/index.php
+[Mon Jun 29 15:24:01.696043 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:24:01.697637 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:24:01.697665 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:26:21.436840 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:26:21.438732 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:26:21.438766 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:26:54.658376 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:26:54.660014 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:26:54.660046 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:28:38.333214 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:28:38.335295 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:28:38.335345 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:31:05.716689 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:31:05.718365 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:31:05.718415 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:42:05.131470 2020] [core:warn] [pid 25] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:42:05.136033 2020] [mpm_prefork:notice] [pid 25] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:42:05.136071 2020] [core:notice] [pid 25] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 29 15:46:40.858010 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 29 15:46:40.859759 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 29 15:46:40.859787 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
