@@ -68,7 +68,7 @@ $jwt = $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
 
 setcookie("jwt", $jwt);
 
-if ($_COOKIE["jwt"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml0YWthbGEifQ.c-wU_vvVqgaR9PRu6s6g5KNLvJtXMiowLZlprImzwjg")
+if ($_COOKIE["jwt"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml0YWthbGEifQ.1qhtR6dVbR07vJ5Ak2bKKf3IkojchOtS2bwQc8AVAKk")
 {
     echo "XD+;8s2q";
 }
