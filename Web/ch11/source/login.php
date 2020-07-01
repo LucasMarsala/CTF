@@ -56,7 +56,7 @@ $base64UrlHeader = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($h
 $base64UrlPayload = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($payload));
 
 // Create Signature Hash
-$signature = hash_hmac('sha256', $base64UrlHeader . "." . $base64UrlPayload, 'TZ@ch2$`pKa6,V6r', true);
+$signature = hash_hmac('sha256', $base64UrlHeader . "." . $base64UrlPayload, 'TZ@CH2$`pKa6,V6r', true);
 
 // Encode Signature to Base64Url String
 $base64UrlSignature = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($signature));
@@ -68,7 +68,7 @@ $jwt = $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
 
 setcookie("jwt", $jwt);
 
-if ($_COOKIE["jwt"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml0YWthbGEifQ.1qhtR6dVbR07vJ5Ak2bKKf3IkojchOtS2bwQc8AVAKk")
+if ($_COOKIE["jwt"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml0YWthbGEifQ.cDPuJ8dQbkJd_oF8myfUB5JOILlUuFPQ0lAQRFGKI_M")
 {
     echo "XD+;8s2q";
 }
