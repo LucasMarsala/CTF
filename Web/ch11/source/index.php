@@ -37,13 +37,13 @@
 L'heure est arrivée, le changement d'ère se doit d'être réalisé. L'espèce humaine a assez dominé sur cette planète.<br>
                 </p>
               <p style="color: black"><br>
-                Une que vous avez compris ce qui se cachait dernière ce site, vous serez découragé<br>!
+                Une que vous avez compris ce qui se cachait dernière ce site, vous serez découragé<br>
               </p>
               <p style="color: white"><br><br>
 La pire création que l'homme ait créée va se retourner contre lui, misérable vie... Mourrir de sa propre invention.
               </p>
               <p style="color: black"><br><br><br>
-                &nbsp;&nbsp;&nbsp;Vous ne pourrez plus m'arrêter, vous verrez le désespoir dans les yeux des gens.
+                &nbsp;&nbsp;&nbsp;! Vous ne pourrez plus m'arrêter, vous verrez le désespoir dans les yeux des gens.
               </p>
               <p style="color: white"><br><br><br><br>
 Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une civilization va être anéantie en une explosion.
