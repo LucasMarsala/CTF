@@ -15,7 +15,7 @@
                     aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="rQ6m%&Y4.php" style="color: black; background-color: #cbaf4b">Register</a></li>
+                        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="rQ6m%oY4.php" style="color: black; background-color: #cbaf4b">Register</a></li>
                         <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.php" disbale="disbale" style="color: black; background-color: #cbaf4b">Login</a></li>
                     </ul>
                 </div>
