@@ -118,7 +118,7 @@ putet, quod ille vos tristia voltuque deceperit, ipse numquam se minus quam erat
                 </p>
               </div>
               <div class="col-4">
-                <img src="assets/img/propagande_4.jpg" alt="3{7|JdtY}" id="right">
+                <img src="assets/img/propagande_4.jpg" alt="3{7|JdtY" id="right">
               </div>
             </div>
           </div>
