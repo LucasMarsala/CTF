@@ -28,66 +28,68 @@
         </header>
           <div class="container-fluid">
             <div class="row justify-content-between">
-              <div class="col-4">
-                <img src="assets/img/propagande_1.jpg" class="img" id="left" alt="T8d7E#4#U">
+              <div>
+                <img src="assets/img/rsz_propagande_1.jpg" class="img-fuild" id="left" alt="T8d7E#4#U">
               </div>
-              <div lass="col-4">
+              <div>
+
                 <br><br><br>
                 <p>
 L'heure est arrivée, le changement d'ère se doit d'être réalisé. L'espèce humaine a assez dominé sur cette planète.<br>
                 </p>
-              <p style="color: black"><br>
+              <p class="hidden"><br>
                 Une que vous avez compris ce qui se cachait dernière ce site, vous serez découragé<br>
               </p>
-              <p style="color: white"><br><br>
+              <p><br><br>
 La pire création que l'homme ait créée va se retourner contre lui, misérable vie... Mourrir de sa propre invention.
               </p>
-              <p style="color: black"><br><br><br>
+              <p class="hidden"><br><br><br>
                 &nbsp;&nbsp;&nbsp;! Vous ne pourrez plus m'arrêter, vous verrez le désespoir dans les yeux des gens.
               </p>
-              <p style="color: white"><br><br><br><br>
+              <p><br><br><br><br>
 Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une civilization va être anéantie en une explosion.
               </p>
-              <p style="color: black"><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br>
                 5 bombes nucléaires vont être lancées d'ici Vendredi, essayez de stopper la bombe avant de m'arrêter.
               </p>
-              <p style="color: white"><br><br><br><br><br><br>
+              <p><br><br><br><br><br><br>
                 Tout cela dans seulement quelques secondes 3...
               </p>
-              <p style="color: black"><br><br><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br><br><br>
                 Je suis persuadé que vous ne voudriez pas laisser des milliers de gens mourrir juste pour pouvoir m'arrêter ?
               </p>
-              <p style="color: white"><br><br><br><br><br><br><br><br>
+              <p><br><br><br><br><br><br><br><br>
                 2..
               </p>
-              <p style="color: black"><br><br><br><br><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br><br><br><br><br>
                 (Peut-être que voir des gens mourrir vous plaît finalement ?)
               </p>
-              <p style="color: white"><br><br><br><br><br><br><br><br><br><br>
+              <p><br><br><br><br><br><br><br><br><br><br>
                 1..
               </p>
-              <p style="color: black"><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br>
                 rien n'est sûr mais je pense sincèrement que vous ne devriez pas prendre mes menaces à la légère  !!
               </p>
               <p style="color: white"><br><br><br><br><br><br><br><br><br><br><br><br>
                 BOUUUUUUUUUUUM !
               </p>
-              <p style="color: black"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 8 personnes sont mortes avant vous car elles n'avaient pas pris en considération mes menaces.
               </p>
               <p style="color: white"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 Quel beau feu d'artifice ! *_* Regarde cette archive que j'ai trouvé
               </p>
-              <p style="color: black"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 zéro est ma tolérance aux personnes qui ne respectent pas mon avis et qui se moquent de moi... mwouahah
               </p>
+
               </div>
-              <div class="col-4 right-sidebar">
-                <img src="assets/img/propagande_2.jpg" class="img" id="right" alt=",%F6zgL82">
+            <div>
+                <img src="assets/img/propagande_2.jpg" class="img-fluid" id="right" alt=",%F6zgL82">
               </div>
             </div>
             <div class="row justify-content-between">
-              <div class="col-4">
+              <div>
                 <img src="assets/img/propagande_3.jpg" class="img" id="left" alt="Pv<946@Hy">
               </div>
               <div>
@@ -117,8 +119,8 @@ putet, quod ille vos tristia voltuque deceperit, ipse numquam se minus quam erat
               sapien. Sed id metus metus. Cras commodo sed tellus in vulputate. Etiam viverra orci condimentum, efficitur<br>
                 </p>
               </div>
-              <div class="col-4">
-                <img src="assets/img/propagande_4.jpg" alt="3{7|JdtY" id="right">
+              <div>
+                <img src="assets/img/propagande_4.jpg" class="img-fluid" alt="3{7|JdtY" id="right">
               </div>
             </div>
           </div>
