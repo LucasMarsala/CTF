@@ -70,13 +70,13 @@ Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une c
               <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br>
                 rien n'est sûr mais je pense sincèrement que vous ne devriez pas prendre mes menaces à la légère  !!
               </p>
-              <p style="color: white"><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p><br><br><br><br><br><br><br><br><br><br><br><br>
                 BOUUUUUUUUUUUM !
               </p>
               <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 8 personnes sont mortes avant vous car elles n'avaient pas pris en considération mes menaces.
               </p>
-              <p style="color: white"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 Quel beau feu d'artifice ! *_* Regarde cette archive que j'ai trouvé
               </p>
               <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
