@@ -90,7 +90,7 @@ Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une c
             </div>
             <div class="row justify-content-between">
               <div>
-                <img src="assets/img/propagande_3.jpg" class="img" id="left" alt="Pv<946@Hy">
+                <img src="assets/img/propagande_3.jpg" class="img-fluid" id="left" alt="Pv<946@Hy">
               </div>
               <div>
                 <br><br><br>
