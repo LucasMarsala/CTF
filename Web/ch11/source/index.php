@@ -29,7 +29,7 @@
           <div class="container-fluid">
             <div class="row justify-content-between">
               <div>
-                <img src="assets/img/rsz_propagande_1.jpg" id="left" alt="T8d7E#4#U">
+                <img src="assets/img/rsz_propagande_1.jpg"  alt="T8d7E#4#U">
               </div>
               <div>
 
@@ -44,7 +44,7 @@ L'heure est arrivée, le changement d'ère se doit d'être réalisé. L'espèce 
 La pire création que l'homme ait créée va se retourner contre lui, misérable vie... Mourrir de sa propre invention.
               </p>
               <p class="hidden"><br><br><br>
-                &nbsp;&nbsp;&nbsp;! Vous ne pourrez plus m'arrêter, vous verrez le désespoir dans les yeux des gens.
+                ! Vous ne pourrez plus m'arrêter, vous verrez le désespoir dans les yeux des gens.
               </p>
               <p><br><br><br><br>
 Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une civilization va être anéantie en une explosion.
@@ -85,12 +85,12 @@ Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une c
 
               </div>
             <div>
-                <img src="assets/img/propagande_2.jpg" id="right" alt=",%F6zgL82">
+                <img src="assets/img/propagande_2.jpg"  alt=",%F6zgL82">
               </div>
             </div>
             <div class="row justify-content-between">
               <div>
-                <img src="assets/img/propagande_3.jpg" id="left" alt="Pv<946@Hy">
+                <img src="assets/img/propagande_3.jpg"  alt="Pv<946@Hy">
               </div>
               <div>
                 <br><br><br>
@@ -120,7 +120,7 @@ putet, quod ille vos tristia voltuque deceperit, ipse numquam se minus quam erat
                 </p>
               </div>
               <div>
-                <img src="assets/img/propagande_4.jpg"alt="3{7|JdtY" id="right">
+                <img src="assets/img/propagande_4.jpg"alt="3{7|JdtY">
               </div>
             </div>
           </div>
