@@ -29,7 +29,7 @@
           <div class="container-fluid">
             <div class="row justify-content-between">
               <div>
-                <img src="assets/img/rsz_propagande_1.jpg" class="img-fuild" id="left" alt="T8d7E#4#U">
+                <img src="assets/img/rsz_propagande_1.jpg" id="left" alt="T8d7E#4#U">
               </div>
               <div>
 
@@ -85,12 +85,12 @@ Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une c
 
               </div>
             <div>
-                <img src="assets/img/propagande_2.jpg" class="img-fluid" id="right" alt=",%F6zgL82">
+                <img src="assets/img/propagande_2.jpg" id="right" alt=",%F6zgL82">
               </div>
             </div>
             <div class="row justify-content-between">
               <div>
-                <img src="assets/img/propagande_3.jpg" class="img-fluid" id="left" alt="Pv<946@Hy">
+                <img src="assets/img/propagande_3.jpg" id="left" alt="Pv<946@Hy">
               </div>
               <div>
                 <br><br><br>
@@ -120,7 +120,7 @@ putet, quod ille vos tristia voltuque deceperit, ipse numquam se minus quam erat
                 </p>
               </div>
               <div>
-                <img src="assets/img/propagande_4.jpg" class="img-fluid" alt="3{7|JdtY" id="right">
+                <img src="assets/img/propagande_4.jpg"alt="3{7|JdtY" id="right">
               </div>
             </div>
           </div>
