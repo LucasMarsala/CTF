@@ -26,7 +26,7 @@
                 <h1><span style="color: black">GOD</span> ITAKALA <span style="color: black">IS COMING</span></h1>
             </div>
         </header>
-          <div class="container-fluid">
+          <div class="container test">
             <div class="row justify-content-between">
               <div>
                 <img src="assets/img/rsz_propagande_1.jpg"  alt="T8d7E#4#U">
@@ -70,7 +70,7 @@ Il reste plus que des tas de cendres à des kilomètres à la ronde. Toute une c
               <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br>
                 rien n'est sûr mais je pense sincèrement que vous ne devriez pas prendre mes menaces à la légère  !!
               </p>
-              <p><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p ><br><br><br><br><br><br><br><br><br><br><br><br>
                 BOUUUUUUUUUUUM !
               </p>
               <p class="hidden"><br><br><br><br><br><br><br><br><br><br><br><br><br>
